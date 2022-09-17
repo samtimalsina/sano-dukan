@@ -24,11 +24,7 @@ export function Header() {
           />
         </a>
         <h1>
-          <img
-            src="/text_logo.svg"
-            alt="Deno Merch"
-            class={tw`h-6`}
-          />
+          Sano Dukan
         </h1>
         <Cart />
       </nav>
