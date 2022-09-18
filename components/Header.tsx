@@ -23,7 +23,7 @@ export function Header() {
             class={tw`h-14 w-14`}
           />
         </a>
-        <h1>
+        <h1 class={tw`text-4xl text-bold`}>
           Sano Dukan
         </h1>
         <Cart />
