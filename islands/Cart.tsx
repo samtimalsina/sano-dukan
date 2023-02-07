@@ -89,7 +89,7 @@ function CartInner(props: { cart: CartData | undefined }) {
   const checkout = (e: Event) => {
     e.preventDefault();
     if (cart) {
-      location.href = `https://demo.saleor.io/checkout?checkout=${cart.id}`;
+      location.href = `https://demo.saleor.io/checkout?checkout=${cart.id}&locale=en-US&channel=default-channel`;
     }
   };
 
