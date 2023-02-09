@@ -8,7 +8,7 @@ import IconCart from "@/components/IconCart.tsx";
 import { List, Product } from "../utils/types.ts";
 
 const q = `{
-  products(first: 25, channel: "default-channel", filter:{categories:["Q2F0ZWdvcnk6MTQ="]}) {
+  products(first: 25, channel: "default-channel", filter:{}) {
     edges {
       node {
         id
