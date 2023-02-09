@@ -21,7 +21,7 @@ export default function AddToCart(props: AddToCartProps) {
     <button
       onClick={add}
       disabled={!data && !isAdding}
-      class={tw`w-full ${
+      class={`w-full ${
         isAdding ? "!bg-gray-400" : "bg-gray-700"
       } border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-gray-900`}
     >
